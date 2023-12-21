@@ -38,7 +38,7 @@ conn = psycopg2.connect(
 )
 
 TOKEN = BOT_TOKEN
-#TOKEN = 'MTE2NjMzODQ3Nzk0MDU1MTcyMg.G8SXss.DwcmuuakARmCVaDC6ms_OIHqLEskDJJSc8D6GQ'
+
 bot = interactions.Client()
 
 def readArmorData(binary_data):
